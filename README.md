@@ -25,7 +25,9 @@ Install the Repository in your Workspace
 Add Folders in the Root Directory
 
 Build the Workspace
-
+```bash
+colcon build
+```
 Launch the Skeleton Python File
 
 Launch the Visualizer
@@ -38,7 +40,9 @@ Install the Repository in your Workspace
 Add Folders in the Root Directory
 
 Build the Workspace
-
+```bash
+colcon build
+```
 Fuse Camera and LiDAR
 
 Visualize the fused data
@@ -46,6 +50,9 @@ Visualize the fused data
 RVIZ Configuration 
 
 Run the Segmentation Node
+
+
+
 
 Run the Dynamic Occupancy Grid Node
 
