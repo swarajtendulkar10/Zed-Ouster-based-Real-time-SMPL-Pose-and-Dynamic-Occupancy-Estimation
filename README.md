@@ -1,2 +1,1 @@
 # Zed-Ouster-based-Real-time-SMPL-Pose-and-Dynamic-Occupancy-Estimation
-**asuubhau**
