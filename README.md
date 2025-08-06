@@ -55,23 +55,30 @@ Launch Ouster LiDAR
 roslaunch ouster_ros driver.launch      \
     sensor_hostname:=<sensor host name> \
  ```   
-Close all the RVIZ windows and relaunch rviz
+Close all the RVIZ windows and relaunch RVIZ
 ```bash
 rviz2
 ```
-Open config and load the rviz file in the repository
+Open config and load the RVIZ file in the repository
 
 Fuse Camera and LiDAR
+```bash
+ros2 run tf2_ros static_transform_publisher 0 0 0 0 0 0 os_sensor zed_camera_link
+```
+# Visualize the fused data
 
-Visualize the fused data
-
+Set the parent link to os_sensor
+Add the topics /smpl_markers and /smpl_joint_axes
 
 
 Run the Segmentation Node
-
-
-
+```bash
+ros2 run smpl_pose_estimation_dynamic_occupancy segment.py
+```
+Add the segmented points topic in RVIZ 
 
 Run the Dynamic Occupancy Grid Node
-
-
+```bash
+ros2 run smpl_pose_estimation_dynamic_occupancy dogma.py
+```
+Add the dynamic occupancy grid topic in RVIZ
