@@ -82,3 +82,5 @@ Run the Dynamic Occupancy Grid Node
 ros2 run smpl_pose_estimation_dynamic_occupancy dogma.py
 ```
 Add the dynamic occupancy grid topic in RVIZ
+# Implementation Results
+<img width="600" height="600" alt="Segmented_Dynamic_Occupancy" src="https://github.com/user-attachments/assets/adba846f-c969-4a8b-bb20-728198519e5f" />
