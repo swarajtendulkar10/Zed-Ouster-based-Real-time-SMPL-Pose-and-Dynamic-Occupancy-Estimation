@@ -24,7 +24,9 @@ ros2 launch zed_display_rviz2 display_zed_cam.launch.py camera_model:=zed2i
 ```
 
 Install the Repository in your Workspace
-
+```bash
+git clone https://github.com/swarajtendulkar10/Zed-Ouster-based-Real-time-SMPL-Pose-and-Dynamic-Occupancy-Estimation.git
+```
 Add Folders in the Root Directory
 ```bash
 mkdir launch/ worlds/ config/ include/ description/
