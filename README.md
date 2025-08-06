@@ -46,6 +46,10 @@ Launch the Visualizer
 ```bash
 ros2 run smpl_pose_estimation_dynamic_occupancy visualizer.py 
 ```
+
+# Implementation Results
+<img width="600" height="600" alt="SMPL-ZED_based_Human_Pose" src="https://github.com/user-attachments/assets/54a9e60f-2440-4e55-a04b-8fdaab809adf" />
+
 # Steps for LiDAR based Dynamic Occupancy Estimation
 
 Navigate to Ouster workspace
