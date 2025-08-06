@@ -51,7 +51,10 @@ ros2 run smpl_pose_estimation_dynamic_occupancy visualizer.py
 Navigate to Ouster workspace
 
 Launch Ouster LiDAR
-
+```bash
+roslaunch ouster_ros driver.launch      \
+    sensor_hostname:=<sensor host name> \
+ ```   
 Close all the RVIZ windows and relaunch rviz
 ```bash
 rviz2
